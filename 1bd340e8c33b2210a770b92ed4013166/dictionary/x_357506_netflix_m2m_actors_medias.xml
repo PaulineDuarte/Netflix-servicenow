@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8a2dc93cc333a210a770b92ed401313c" label="x_357506_netflix_m2m_Actors_Medias" max_length="40" name="x_357506_netflix_m2m_actors_medias" type="collection">
+        <element attributes="encode_utf8=false" label="Actors" max_length="32" name="x_357506_netflix_actor" reference="x_357506_netflix_actor" type="reference"/>
+        <element attributes="encode_utf8=false" label="Medias" max_length="32" name="x_357506_netflix_media" reference="x_357506_netflix_media" type="reference"/>
+        <index name="index">
+            <element name="x_357506_netflix_actor"/>
+        </index>
+        <index name="index2">
+            <element name="x_357506_netflix_media"/>
+        </index>
+    </element>
+</database>
