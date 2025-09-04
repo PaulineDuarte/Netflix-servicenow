@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Review medias">69a7ed85c3372210a770b92ed40131bd</catalog_item>
+        <catalog_variable>IO:fe413905c3772210a770b92ed40131e8</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 12:51:01</sys_created_on>
+        <sys_id>e6f9f55dc33b6210a770b92ed40131b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>media</sys_name>
+        <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e6f9f55dc33b6210a770b92ed40131b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 13:00:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show media and data when media is selected. ">8da9315dc33b6210a770b92ed40131ac</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>media</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e6f9f55dc33b6210a770b92ed40131b9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</application>
+        <file_path/>
+        <instance_id>7f30fc233bdbded48d70e0bf55e45ad4</instance_id>
+        <instance_name>dev293871</instance_name>
+        <name>catalog_ui_policy_action_e6f9f55dc33b6210a770b92ed40131b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Review medias">69a7ed85c3372210a770b92ed40131bd</catalog_item><catalog_variable>IO:fe413905c3772210a770b92ed40131e8</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-04 12:51:01</sys_created_on><sys_id>e6f9f55dc33b6210a770b92ed40131b9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>media</sys_name><sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package><sys_policy/><sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope><sys_update_name>catalog_ui_policy_action_e6f9f55dc33b6210a770b92ed40131b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-04 13:00:48</sys_updated_on><table/><ui_policy display_value="Show media and data when media is selected. ">8da9315dc33b6210a770b92ed40131ac</ui_policy><value/><value_action>ignore</value_action><variable>media</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e6f9f55dc33b6210a770b92ed40131b9"/></record_update>]]></payload>
+        <payload_hash>-553448264</payload_hash>
+        <record_name>media</record_name>
+        <reverted_from/>
+        <source>e1ebc8a0c37b2210a770b92ed4013113</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 13:00:49</sys_created_on>
+        <sys_id>6d4c7911c37b6210a770b92ed4013113</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914d0c0450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 13:00:49</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>e14c7911697b6210d90cda127fa41f13</update_guid>
+        <update_guid_history>e14c7911697b6210d90cda127fa41f13:-553448264,8e0a395d843b621003118b66ff9b81d5:-2137127116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="media">c7a1dad9c3bb6210a770b92ed40131c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:34:19</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0eb2ed3c5ffd4f80813ad124add02100</sys_id>
+        <sys_metadata>e6f9f55dc33b6210a770b92ed40131b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>media</sys_name>
+        <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
+        <sys_scope_delete display_value="">3babe14e62df4ed390f29f7524a6ba71</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e6f9f55dc33b6210a770b92ed40131b9</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e6f9f55dc33b6210a770b92ed40131b9">6d4c7911c37b6210a770b92ed4013113</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:34:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
