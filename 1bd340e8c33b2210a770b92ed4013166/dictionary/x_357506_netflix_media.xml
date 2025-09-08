@@ -22,5 +22,6 @@
         <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
         <element label="Writters" max_length="4000" name="writters" type="string"/>
         <element label="Country" max_length="250" name="country" type="string"/>
+        <element label="Release year" max_length="4" name="release_year" type="string"/>
     </element>
 </database>
