@@ -36,7 +36,8 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${opened_by.first_name}<br>Your review for the ${media.type} ${media.title} is ${state}<br><br><span data-teams="true">It is <strong>approved.</strong></span>&nbsp;</p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name},<br><br>Thank you for your review for the ${media.type}: <strong>${media.title}</strong>.</p>
+<p><img style="margin: 20px; width: 200px; border=radius: 20px;" src="${media.poster}"></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Review Approved</name>
@@ -58,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2eff9e22c3732210a770b92ed401318a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Review Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
@@ -66,9 +67,9 @@
         <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
         <sys_update_name>sysevent_email_action_2eff9e22c3732210a770b92ed401318a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 13:32:46</sys_updated_on>
+        <sys_updated_on>2025-09-08 21:06:41</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
