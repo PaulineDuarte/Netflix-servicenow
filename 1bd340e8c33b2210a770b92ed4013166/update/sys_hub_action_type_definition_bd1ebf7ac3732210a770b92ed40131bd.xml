@@ -17,7 +17,7 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>integration_omdb_api</internal_name>
-        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4a350dac-fe85-4097-957e-6cf066ec4879].endpoint}}","label":"step➛Variables Iniciation➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"188c892a-f98c-4575-925e-4eb0be4bc0b5"}},{"name":"{{step[4a350dac-fe85-4097-957e-6cf066ec4879].apikey}}","label":"step➛Variables Iniciation➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"2cf35e39-b674-4306-b556-ab568f40f64a"}},{"name":"{{step[4a350dac-fe85-4097-957e-6cf066ec4879].plot}}","label":"step➛Variables Iniciation➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9f16af2b-cfea-4ba0-82a1-36dd6bf26866"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <master_snapshot_digest/>
@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bd1ebf7ac3732210a770b92ed40131bd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Integration OMDB Api  </sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
@@ -40,7 +40,7 @@
         <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_bd1ebf7ac3732210a770b92ed40131bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 14:43:43</sys_updated_on>
+        <sys_updated_on>2025-09-09 16:28:45</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -75,7 +75,7 @@
         <variable display_value="Action Status">f5df3ffac3b32210a770b92ed40131a9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_bd1ebf7ac3732210a770b92ed40131bd^id=bd1ebf7ac3732210a770b92ed40131bd"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=bd1ebf7ac3732210a770b92ed40131bd^sys_idNOT IN79df3ffac3b32210a770b92ed4013190"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=bd1ebf7ac3732210a770b92ed40131bd^sys_idNOT IN79df3ffac3b32210a770b92ed4013190,ff97484bc3f32210a770b92ed4013167"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Integration OMDB Api  ">bd1ebf7ac3732210a770b92ed40131bd</action>
         <cid>4a350dac-fe85-4097-957e-6cf066ec4879</cid>
@@ -84,7 +84,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Variables Iniciation</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 14:26:31</sys_created_on>
         <sys_id>79df3ffac3b32210a770b92ed4013190</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 14:43:43</sys_updated_on>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=79df3ffac3b32210a770b92ed4013190"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -176,7 +176,7 @@ outputs.endpoint = gs.getProperty("x_357506_netflix.integration_endpoint","")&#1
         <label>Endpoint</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">79df3ffac3b32210a770b92ed4013190</model>
+        <model display_value="Variables Iniciation">79df3ffac3b32210a770b92ed4013190</model>
         <model_id>79df3ffac3b32210a770b92ed4013190</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_79df3ffac3b32210a770b92ed4013190</name>
@@ -259,7 +259,7 @@ outputs.endpoint = gs.getProperty("x_357506_netflix.integration_endpoint","")&#1
         <label>Apikey</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">79df3ffac3b32210a770b92ed4013190</model>
+        <model display_value="Variables Iniciation">79df3ffac3b32210a770b92ed4013190</model>
         <model_id>79df3ffac3b32210a770b92ed4013190</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_79df3ffac3b32210a770b92ed4013190</name>
@@ -342,7 +342,7 @@ outputs.endpoint = gs.getProperty("x_357506_netflix.integration_endpoint","")&#1
         <label>Plot</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">79df3ffac3b32210a770b92ed4013190</model>
+        <model display_value="Variables Iniciation">79df3ffac3b32210a770b92ed4013190</model>
         <model_id>79df3ffac3b32210a770b92ed4013190</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_79df3ffac3b32210a770b92ed4013190</name>
@@ -456,6 +456,255 @@ outputs.endpoint = gs.getProperty("x_357506_netflix.integration_endpoint","")&#1
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Integration OMDB Api  ">bd1ebf7ac3732210a770b92ed40131bd</action>
+        <cid>b9894756-fd79-4acf-86f2-ba68dc38dbbf</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>ff97484bc3f32210a770b92ed4013167</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:28:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ff97484bc3f32210a770b92ed4013167"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>3f97484bc3f32210a770b92ed4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>7b97484bc3f32210a770b92ed4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>7f97484bc3f32210a770b92ed4013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 16:26:09</sys_created_on>
+        <sys_id>863bd403c3772210a770b92ed401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:26:09</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>b397484bc3f32210a770b92ed4013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>b797484bc3f32210a770b92ed4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 16:26:09</sys_created_on>
+        <sys_id>ce3bd403c3772210a770b92ed401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:26:09</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff97484bc3f32210a770b92ed4013167</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>ff97484bc3f32210a770b92ed4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff97484bc3f32210a770b92ed4013167"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>3b97484bc3f32210a770b92ed4013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>7797484bc3f32210a770b92ed4013181</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:28:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[4a350dac-fe85-4097-957e-6cf066ec4879].endpoint}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>b397484bc3f32210a770b92ed4013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>ff97484bc3f32210a770b92ed4013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>fb97484bc3f32210a770b92ed4013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 16:26:09</sys_created_on>
+        <sys_id>4e3bd403c3772210a770b92ed401318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:26:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>3797484bc3f32210a770b92ed4013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 15:00:31</sys_created_on>
+        <sys_id>3f97484bc3f32210a770b92ed4013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 15:00:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ff97484bc3f32210a770b92ed4013167</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-09 16:26:09</sys_created_on>
+        <sys_id>063bd403c3772210a770b92ed401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-09 16:26:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"apikey","value":"{{step[4a350dac-fe85-4097-957e-6cf066ec4879].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"t","value":"{{action.title}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"type","value":"{{action.type}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"y","value":"{{action.year}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"plot","value":"{{step[4a350dac-fe85-4097-957e-6cf066ec4879].plot}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff97484bc3f32210a770b92ed4013167"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ff97484bc3f32210a770b92ed4013167"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ff97484bc3f32210a770b92ed4013167"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff97484bc3f32210a770b92ed4013167"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ff97484bc3f32210a770b92ed4013167"/>
     <sys_hub_action_input action="delete_multiple" query="model=bd1ebf7ac3732210a770b92ed40131bd^sys_idNOT IN71df3ffac3b32210a770b92ed401317d,75df3ffac3b32210a770b92ed4013173,bddf3ffac3b32210a770b92ed4013178"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -775,14 +1024,14 @@ outputs.endpoint = gs.getProperty("x_357506_netflix.integration_endpoint","")&#1
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 14:26:32</sys_created_on>
         <sys_id>7ddf3ffac3b32210a770b92ed40131c7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 14:43:43</sys_updated_on>
+        <sys_updated_on>2025-09-09 16:28:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
