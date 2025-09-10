@@ -5,6 +5,7 @@
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
         <element default="0" label="Average Grade" max_length="255" name="average_grade" type="float"/>
         <element label="Category" max_length="40" name="category" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
