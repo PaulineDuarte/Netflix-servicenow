@@ -36,11 +36,15 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${opened_by.first_name},<br><br>Thank you for your suggestion&nbsp; of the ${type} called ${title} was <strong>Approved </strong>!!&nbsp;</p>
-<p><img style="margin: 20px; width: 200px; border=radius: 20px;" src="${media.poster}"></p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name},<br><br>Oh no ! Something went wrong with your suggestion.</p>
+<p>The ${type} : ${title} was&nbsp;<strong>Reproved&nbsp;</strong>!!&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Don't be sad you can try again.</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Suggestion Approved</name>
+        <name>Suggestion Reproved</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -55,19 +59,19 @@
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-08 13:17:04</sys_created_on>
+        <sys_created_on>2025-09-12 20:05:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2eff9e22c3732210a770b92ed401318a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Suggestion Approved</sys_name>
+        <sys_id>712aac88c3083210a770b92ed401310b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Suggestion Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
-        <sys_update_name>sysevent_email_action_2eff9e22c3732210a770b92ed401318a</sys_update_name>
+        <sys_update_name>sysevent_email_action_712aac88c3083210a770b92ed401310b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-12 19:59:51</sys_updated_on>
+        <sys_updated_on>2025-09-12 20:06:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>
