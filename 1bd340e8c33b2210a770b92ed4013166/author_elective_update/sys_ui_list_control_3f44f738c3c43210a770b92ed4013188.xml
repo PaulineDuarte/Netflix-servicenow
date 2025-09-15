@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="DELETE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_357506_netflix_media</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <related_list>x_357506_netflix_m2m_actors_medias.x_357506_netflix_media</related_list>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 18:44:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f44f738c3c43210a770b92ed4013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_357506_netflix_media</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
+        <sys_update_name>sys_ui_list_control_3f44f738c3c43210a770b92ed4013188</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:44:17</sys_updated_on>
+    </sys_ui_list_control>
+    <sys_es_latest_script action="DELETE">
+        <id>3f44f738c3c43210a770b92ed4013188</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 18:44:17</sys_created_on>
+        <sys_id>4864bff4c3c43210a770b92ed401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:44:17</sys_updated_on>
+        <table>sys_ui_list_control</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</application>
+        <file_path/>
+        <instance_id>7f30fc233bdbded48d70e0bf55e45ad4</instance_id>
+        <instance_name>dev293871</instance_name>
+        <name>sys_ui_list_control_3f44f738c3c43210a770b92ed4013188</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control"><sys_ui_list_control action="INSERT_OR_UPDATE"><columns_condition/><disable_nlq>false</disable_nlq><edit_condition/><edit_default_filter/><edit_roles/><empty_condition/><filter_condition/><filter_roles/><hierarchical_lists>false</hierarchical_lists><label/><link_condition/><link_roles/><list_edit_insert_row>false</list_edit_insert_row><list_edit_ref_qual_tag/><list_edit_type/><name>x_357506_netflix_media</name><new_condition/><new_roles/><omit_columns_if_empty>false</omit_columns_if_empty><omit_count>false</omit_count><omit_count_views>false</omit_count_views><omit_count_views_list/><omit_drilldown_link>false</omit_drilldown_link><omit_edit_button>true</omit_edit_button><omit_filters>false</omit_filters><omit_if_empty>false</omit_if_empty><omit_links>false</omit_links><omit_new_button>true</omit_new_button><related_list>x_357506_netflix_m2m_actors_medias.x_357506_netflix_media</related_list><sys_class_name>sys_ui_list_control</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-15 18:44:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3f44f738c3c43210a770b92ed4013188</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_357506_netflix_media</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package><sys_policy/><sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope><sys_update_name>sys_ui_list_control_3f44f738c3c43210a770b92ed4013188</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-15 18:44:17</sys_updated_on></sys_ui_list_control><sys_es_latest_script action="INSERT_OR_UPDATE"><id>3f44f738c3c43210a770b92ed4013188</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-15 18:44:17</sys_created_on><sys_id>4864bff4c3c43210a770b92ed401319e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-15 18:44:17</sys_updated_on><table>sys_ui_list_control</table><use_es_latest>true</use_es_latest></sys_es_latest_script></record_update>]]></payload>
+        <payload_hash>-1213496370</payload_hash>
+        <record_name>x_357506_netflix_media</record_name>
+        <reverted_from/>
+        <source>e1ebc8a0c37b2210a770b92ed4013113</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 18:44:17</sys_created_on>
+        <sys_id>9c643338c3c43210a770b92ed4013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994eb12b560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 18:44:17</sys_updated_on>
+        <type>List Control</type>
+        <update_guid>90643338e2c43210831224ec7eb64d03</update_guid>
+        <update_guid_history>90643338e2c43210831224ec7eb64d03:-1213496370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 19:26:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
+        <sys_id>8698313e37a54aa0bf3694f9e7487100</sys_id>
+        <sys_metadata>3f44f738c3c43210a770b92ed4013188</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_357506_netflix_media</sys_name>
+        <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
+        <sys_parent display_value="Media">84babf68c3bb6210a770b92ed4013167</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
+        <sys_scope_delete display_value="">3babe14e62df4ed390f29f7524a6ba71</sys_scope_delete>
+        <sys_update_name>sys_ui_list_control_3f44f738c3c43210a770b92ed4013188</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_control_3f44f738c3c43210a770b92ed4013188">9c643338c3c43210a770b92ed4013103</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 19:26:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
