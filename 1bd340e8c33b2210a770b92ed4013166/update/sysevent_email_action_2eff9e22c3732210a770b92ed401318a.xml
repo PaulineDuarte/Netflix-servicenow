@@ -36,8 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello ${opened_by.first_name},<br><br>Thank you for your suggestion&nbsp; of the ${type} called ${title} was <strong>Approved </strong>!!&nbsp;</p>
-<p><img style="margin: 20px; width: 200px; border=radius: 20px;" src="${media.poster}"></p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name},<br><br>Thank you for your suggestion&nbsp; of the ${type} called ${title} was <strong>Approved </strong>!!&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Suggestion Approved</name>
@@ -59,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2eff9e22c3732210a770b92ed401318a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Suggestion Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
@@ -67,7 +66,7 @@
         <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
         <sys_update_name>sysevent_email_action_2eff9e22c3732210a770b92ed401318a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-12 19:59:51</sys_updated_on>
+        <sys_updated_on>2025-09-15 13:22:22</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>

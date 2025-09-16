@@ -30,10 +30,10 @@
     return returnObj;
  
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_357506_netflix/software_x/query_movies_by_Genres</operation_uri>
+        <operation_uri>/api/x_357506_netflix/software_x/query_movies_by_genres</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
-        <relative_path>/query_movies_by_Genres</relative_path>
+        <relative_path>/query_movies_by_genres</relative_path>
         <request_example/>
         <requires_acl_authorization>true</requires_acl_authorization>
         <requires_authentication>true</requires_authentication>
@@ -43,14 +43,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-12 13:05:15</sys_created_on>
         <sys_id>2bb54fbfc3332210a770b92ed401314d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Query Movies by Genres</sys_name>
         <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
         <sys_update_name>sys_ws_operation_2bb54fbfc3332210a770b92ed401314d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-12 18:32:12</sys_updated_on>
+        <sys_updated_on>2025-09-12 20:54:44</sys_updated_on>
         <web_service_definition display_value="Software X">6f45c3bfc3332210a770b92ed4013158</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

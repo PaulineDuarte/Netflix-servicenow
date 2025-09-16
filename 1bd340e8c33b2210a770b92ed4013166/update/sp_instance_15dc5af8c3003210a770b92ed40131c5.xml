@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c60c5af8c3003210a770b92ed40131c0</sp_column>
+        <sp_widget display_value="To-dos header Widget">e3d78e3e5b6b13001109efe5f0f91acb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 12:21:47</sys_created_on>
+        <sys_id>15dc5af8c3003210a770b92ed40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Netflix" source="x_357506_netflix">1bd340e8c33b2210a770b92ed4013166</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">1bd340e8c33b2210a770b92ed4013166</sys_scope>
+        <sys_update_name>sp_instance_15dc5af8c3003210a770b92ed40131c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 12:21:47</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=15dc5af8c3003210a770b92ed40131c5"/>
+</record_update>
